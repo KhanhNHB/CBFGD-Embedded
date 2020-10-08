@@ -4,11 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "GOOGLE_APPLICATION_CREDENTIALS='./key.json' node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/pubsub": "^2.5.0",
     "serialport": "^9.0.1"
   }
 }
